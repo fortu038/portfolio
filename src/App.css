@@ -1,3 +1,56 @@
+/* General Styling */
+:root {
+  --darkBlue: #090446;
+  --mocha: #786f52;
+  --softBlue: #61dafb;
+}
+
+* {
+  background-color: var(--mocha);
+}
+
+a {
+  color: var(--darkBlue);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--softBlue)
+}
+
+button {
+  background: none;
+	color: var(--darkBlue);
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+button:hover {
+  color: var(--softBlue);
+}
+
+@media screen and (min-width: 601px) {
+  h2 {
+    font-size: calc(20px + 2vmin);
+  }
+  h3 {
+    font-size: calc(10px + 2vmin);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: calc(4px + 2vmin);
+  }
+  h3 {
+    font-size: calc(2px + 2vmin);
+  }
+}
+
+/* App.js Styling */
 .App {
   text-align: center;
 }
@@ -7,32 +60,138 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--darkBlue);
 }
 
-.App-link {
-  color: #61dafb;
+.App-header img { /* <-- This is what's causing the pfp and project images to have the same scale */
+  height: calc(40vh + 2vmin);
+  width: calc(14vw + 2vmin);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.App-footer {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--darkBlue);
+}
+
+@media screen and (max-width: 600px) {
+  .App-header img {
+    height: calc(23vh + 2vmin);
+    width: calc(30vw + 2vmin);
   }
-  to {
-    transform: rotate(360deg);
+}
+
+/* Contact section Styling */
+.Contact input {
+  width: 15vw;
+}
+
+.Contact button {
+  margin-top: 5vh;
+}
+
+#message {
+  height: 20vh;
+}
+
+/* Footer.js Styling */
+.Footer a:hover {
+  opacity: 0.7;
+}
+
+.Footer-image {
+  max-height: 10vh;
+  margin-top: 30vh;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+}
+
+@media screen and (max-width: 600px) {
+  .Footer-image {
+    max-height: 5vh;
+    margin: 0.5vh 2.5vw;
+  }
+}
+
+/* Navigation.js Styling */
+.Navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: var(--darkBlue);
+}
+
+button.Active {
+  color: var(--softBlue);
+}
+
+.Navigation div {
+  padding: 1vw;
+}
+
+/* Project.js Styling */
+.Project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Project-container {
+  position: relative;
+  margin: 1vh 1vw;
+}
+
+.Project-container:hover .Project-img {
+  opacity: 0.8;
+}
+
+.Project-container:hover .Project-overlay, h5 {
+  background-color: transparent;
+  opacity: 1;
+}
+
+.Project-github-img {
+  position: absolute;
+  left: 25%;
+  top: 80%;
+  background-color: transparent;
+  max-width: 5vw;
+  max-height: 10vh;
+}
+
+.Project-img {
+  opacity: 1;
+  display: block;
+  backface-visibility: hidden;
+  height: calc(35vh + 2vmin);
+  width: calc(30vw + 2vmin);
+}
+
+.Project-overlay {
+  position: absolute;
+  color: var(--darkBlue);
+  opacity: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 600px) {
+  .Project-img {
+    height: calc(15vh + 2vmin);
+    width: calc(25vw + 2vmin);
   }
 }
