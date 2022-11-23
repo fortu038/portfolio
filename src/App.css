@@ -1,26 +1,30 @@
 /* General Styling */
 :root {
-  --darkBlue: #090446;
-  --mocha: #786f52;
-  --softBlue: #61dafb;
+  --text: #090446;
+  --mainBackground: #808080;
+  --activeText: #61dafb;
+  --altBackground: #fbfff1;
+  /* --importantText: #e0ca3c; */
+  /* --importantText: #9cde9f; */
+  --important: #322e18;
 }
 
 * {
-  background-color: var(--mocha);
+  background-color: var(--mainBackground);
 }
 
 a {
-  color: var(--darkBlue);
+  color: var(--text);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--softBlue)
+  color: var(--activeText)
 }
 
 button {
   background: none;
-	color: var(--darkBlue);
+	color: var(--text);
 	border: none;
 	padding: 0;
 	font: inherit;
@@ -29,7 +33,7 @@ button {
 }
 
 button:hover {
-  color: var(--softBlue);
+  color: var(--activeText);
 }
 
 @media screen and (min-width: 601px) {
@@ -67,12 +71,7 @@ button:hover {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: var(--darkBlue);
-}
-
-.App-header img { /* <-- This is what's causing the pfp and project images to have the same scale */
-  height: calc(40vh + 2vmin);
-  width: calc(14vw + 2vmin);
+  color: var(--text);
 }
 
 .App-footer {
@@ -82,7 +81,7 @@ button:hover {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: var(--darkBlue);
+  color: var(--text);
 }
 
 @media screen and (max-width: 600px) {
@@ -124,6 +123,12 @@ button:hover {
   }
 }
 
+/* Header.js Styling */
+.Header-img { /* <-- This is what's causing the pfp and project images to have the same scale */
+  height: calc(40vh);
+  width: calc(15vw);
+}
+
 /* Navigation.js Styling */
 .Navigation {
   display: flex;
@@ -131,11 +136,11 @@ button:hover {
   align-items: baseline;
   justify-content: space-between;
   font-size: calc(10px + 2vmin);
-  color: var(--darkBlue);
+  color: var(--text);
 }
 
 button.Active {
-  color: var(--softBlue);
+  color: var(--activeText);
 }
 
 .Navigation div {
@@ -182,7 +187,7 @@ button.Active {
 
 .Project-overlay {
   position: absolute;
-  color: var(--darkBlue);
+  color: var(--text);
   opacity: 0;
   left: 50%;
   top: 50%;

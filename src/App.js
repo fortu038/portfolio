@@ -83,7 +83,7 @@ function App() {
         return (
           <div>
             <Header text={str} />
-            <img src={require("./assets/images/profile-pic.jpg")} alt="Conor Fortuna" />
+            <img className="Header-img" src={require("./assets/images/profile-pic.jpg")} alt="Conor Fortuna" />
             <h5>
               My name is Conor Fortuna. I graduated in May 2022 from the University of Minnesota Twin Cities with
               a major in chemistry and a minor in computer science. I am currently taking a full stack development
