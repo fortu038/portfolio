@@ -24,6 +24,13 @@ function App() {
       repo: " https://github.com/Glitch0320/group5"
     },
     {
+      image: require("./assets/images/group-project-3-screenshot.jpg"),
+      altText: "A screenshot of a website titled MACHDev",
+      projectTitle: "MACHDev",
+      link: "https://machdev.herokuapp.com/",
+      repo: "https://github.com/AaronVenema/machdev"
+    },
+    {
       image: require("./assets/images/text-editor-site-screenshot.jpg"),
       altText: "A screenshot of a text editor called Just Another Text Editor",
       projectTitle: "J.A.T.E.",
