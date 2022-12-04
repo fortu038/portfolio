@@ -11,6 +11,7 @@
 
 * {
   background-color: var(--mainBackground);
+  color: var(--text);
 }
 
 a {
@@ -19,7 +20,11 @@ a {
 }
 
 a:hover {
-  color: var(--activeText)
+  color: var(--activeText);
+}
+
+.ChangeOnHover:hover {
+  color: var(--activeText);
 }
 
 button {
@@ -32,9 +37,9 @@ button {
 	outline: inherit;
 }
 
-button:hover {
+/* button:hover {
   color: var(--activeText);
-}
+} */
 
 @media screen and (min-width: 601px) {
   h2 {
@@ -125,8 +130,8 @@ button:hover {
 
 /* Header.js Styling */
 .Header-img { /* <-- This is what's causing the pfp and project images to have the same scale */
-  height: calc(40vh);
-  width: calc(15vw);
+  height: 40vmin;
+  min-height: 200px;
 }
 
 /* Navigation.js Styling */
@@ -139,9 +144,9 @@ button:hover {
   color: var(--text);
 }
 
-button.Active {
+/* button.Active {
   color: var(--activeText);
-}
+} */
 
 .Navigation div {
   padding: 1vw;
