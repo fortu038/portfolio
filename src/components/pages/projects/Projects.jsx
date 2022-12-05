@@ -1,7 +1,8 @@
-import React from 'react';
-import { Container } from 'react-bootstrap';
-import Navigation from '../../Navigation';
-import Footer from '../../Footer';
+import React from "react";
+import { Container } from "react-bootstrap";
+import ProjectGrid from "./ProjectGrid";
+import Navigation from "../../Navigation";
+import Footer from "../../Footer";
 
 function Projects (props) {
   return( 
@@ -27,6 +28,11 @@ function Projects (props) {
       <Container>
         <Navigation />
         <h1>Projects</h1>
+        {console.log(props.projectArray)}
+        {props.projectArray.map((data) =>{
+            return <ProjectGrid data={data} key={data.projectTitle} />
+          }
+        )}
         <Footer />
       </Container>
   )

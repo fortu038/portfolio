@@ -14,12 +14,12 @@
   color: var(--text);
 }
 
-a {
+.HoverLink {
   color: var(--text);
   text-decoration: none;
 }
 
-a:hover {
+.HoverLink:hover {
   color: var(--activeText);
 }
 
@@ -37,11 +37,11 @@ button {
 	outline: inherit;
 }
 
-/* button:hover {
+button:hover {
   color: var(--activeText);
-} */
+}
 
-@media screen and (min-width: 601px) {
+/* @media screen and (min-width: 601px) {
   h2 {
     font-size: calc(20px + 2vmin);
   }
@@ -57,10 +57,10 @@ button {
   h3 {
     font-size: calc(2px + 2vmin);
   }
-}
+} */
 
 /* App.js Styling */
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -70,16 +70,15 @@ button {
 }
 
 .App-header {
-  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: var(--text);
-}
+} */
 
-.App-footer {
+/* .App-footer {
   min-height: 50vh;
   display: flex;
   flex-direction: column;
@@ -87,17 +86,17 @@ button {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: var(--text);
-}
+} */
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .App-header img {
     height: calc(23vh + 2vmin);
     width: calc(30vw + 2vmin);
   }
-}
+} */
 
 /* Contact section Styling */
-.Contact input {
+/* .Contact input {
   width: 15vw;
 }
 
@@ -107,10 +106,10 @@ button {
 
 #message {
   height: 20vh;
-}
+} */
 
 /* Footer.js Styling */
-.Footer a:hover {
+/* .Footer a:hover {
   opacity: 0.7;
 }
 
@@ -126,34 +125,43 @@ button {
     max-height: 5vh;
     margin: 0.5vh 2.5vw;
   }
-}
+} */
 
 /* Header.js Styling */
-.Header-img { /* <-- This is what's causing the pfp and project images to have the same scale */
+.Header-img {
   height: 40vmin;
   min-height: 200px;
+  width: 30vmin;
+  min-width: 150px;
 }
 
 /* Navigation.js Styling */
-.Navigation {
+/* .Navigation {
   display: flex;
   flex-direction: row;
   align-items: baseline;
   justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: var(--text);
-}
+} */
 
 /* button.Active {
   color: var(--activeText);
 } */
 
-.Navigation div {
+/* .Navigation div {
   padding: 1vw;
-}
+} */
 
 /* Project.js Styling */
-.Project {
+.Project-Img {
+  height: 75vmin;
+  min-height: 300px;
+  width: 90vmin;
+  max-width: 650px;
+}
+
+/* .Project {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -204,4 +212,4 @@ button {
     height: calc(15vh + 2vmin);
     width: calc(25vw + 2vmin);
   }
-}
+} */
