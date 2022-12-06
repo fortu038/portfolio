@@ -19,8 +19,8 @@ function AboutMe () {
         <Header as='h5' icon textAlign='center'>
           <Header.Content>
             My name is Conor Fortuna. I graduated in May 2022 from the University of Minnesota Twin Cities 
-            with a major in chemistry and a minor in computer science. I am currently taking a full stack 
-            development bootcamp throught the University of Minnesota Twin Cities.
+            with a major in chemistry and a minor in computer science. I recently completed a fullstack develop course at the University of
+            Minnesota.
           </Header.Content>
         </Header>
       </Segment>
