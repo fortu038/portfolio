@@ -9,11 +9,11 @@ import Resume from "./pages/resume/Resume";
 function Routing(props) {
   return (
     <Routes>
-      <Route path="/" element={<AboutMe />} />
+      <Route path="/portfolio" element={<AboutMe />} />
       <Route path="/projects" element={<Projects projectArray={props.projectArray} />} />
       <Route path="/contactme" element={<ContactMe />} />
       <Route path="/resume" element={<Resume />} />
-      <Route path="*" element={<Navigate to="/"/>} />
+      <Route path="*" element={<Navigate to="/portfolio"/>} />
     </Routes>
   );
 }
