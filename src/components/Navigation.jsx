@@ -14,10 +14,10 @@ function Navigation (props) {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-            <Nav.Link as={Link} to="/"><h6 className="ChangeOnHover">About Me</h6></Nav.Link>
-            <Nav.Link as={Link} to="/projects"><h6 className="ChangeOnHover">Projects</h6></Nav.Link>
-            <Nav.Link as={Link} to="/contactme"><h6 className="ChangeOnHover">Contact Me</h6></Nav.Link>
-            <Nav.Link as={Link} to="/resume"><h6 className="ChangeOnHover">Resume</h6></Nav.Link>
+            <Nav.Link as={Link} to="/"><h5 className="ChangeOnHover">About Me</h5></Nav.Link>
+            <Nav.Link as={Link} to="/projects"><h5 className="ChangeOnHover">Projects</h5></Nav.Link>
+            <Nav.Link as={Link} to="/contactme"><h5 className="ChangeOnHover">Contact Me</h5></Nav.Link>
+            <Nav.Link as={Link} to="/resume"><h5 className="ChangeOnHover">Resume</h5></Nav.Link>
             </Nav>
           </Navbar.Collapse>
       </Container>

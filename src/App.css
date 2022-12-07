@@ -1,11 +1,11 @@
-/* General Styling */
+/* Generalist Styling */
 :root {
   --text: #090446;
   --mainBackground: #808080;
   --activeText: #61dafb;
   --altBackground: #fbfff1;
-  /* --importantText: #e0ca3c; */
-  /* --importantText: #9cde9f; */
+  --highlightText: #e0ca3c;
+  --secondaryText: #9cde9f;
   --important: #322e18;
 }
 
@@ -41,62 +41,8 @@ button:hover {
   color: var(--activeText);
 }
 
-/* @media screen and (min-width: 601px) {
-  h2 {
-    font-size: calc(20px + 2vmin);
-  }
-  h3 {
-    font-size: calc(10px + 2vmin);
-  }
-}
-
-@media screen and (max-width: 600px) {
-  h2 {
-    font-size: calc(4px + 2vmin);
-  }
-  h3 {
-    font-size: calc(2px + 2vmin);
-  }
-} */
-
-/* App.js Styling */
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: var(--text);
-} */
-
-/* .App-footer {
-  min-height: 50vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: var(--text);
-} */
-
-/* @media screen and (max-width: 600px) {
-  .App-header img {
-    height: calc(23vh + 2vmin);
-    width: calc(30vw + 2vmin);
-  }
-} */
-
 /* Contact section Styling */
-/* .Contact input {
+.Contact input {
   width: 15vw;
 }
 
@@ -106,110 +52,25 @@ button:hover {
 
 #message {
   height: 20vh;
-} */
-
-/* Footer.js Styling */
-/* .Footer a:hover {
-  opacity: 0.7;
 }
 
-.Footer-image {
+/* Footer Styling */
+.Footer-Image {
   max-height: 10vh;
-  margin-top: 30vh;
-  margin-left: 2.5vw;
-  margin-right: 2.5vw;
 }
 
-@media screen and (max-width: 600px) {
-  .Footer-image {
-    max-height: 5vh;
-    margin: 0.5vh 2.5vw;
-  }
-} */
-
-/* Header.js Styling */
-.Header-img {
+/* About Me Styling */
+.Profile-Picture {
   height: 40vmin;
   min-height: 200px;
   width: 30vmin;
   min-width: 150px;
 }
 
-/* Navigation.js Styling */
-/* .Navigation {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  justify-content: space-between;
-  font-size: calc(10px + 2vmin);
-  color: var(--text);
-} */
-
-/* button.Active {
-  color: var(--activeText);
-} */
-
-/* .Navigation div {
-  padding: 1vw;
-} */
-
-/* Project.js Styling */
+/* Projects Styling */
 .Project-Img {
   height: 75vmin;
   min-height: 300px;
   width: 90vmin;
   max-width: 650px;
 }
-
-/* .Project {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.Project-container {
-  position: relative;
-  margin: 1vh 1vw;
-}
-
-.Project-container:hover .Project-img {
-  opacity: 0.8;
-}
-
-.Project-container:hover .Project-overlay, h5 {
-  background-color: transparent;
-  opacity: 1;
-}
-
-.Project-github-img {
-  position: absolute;
-  left: 25%;
-  top: 80%;
-  background-color: transparent;
-  max-width: 5vw;
-  max-height: 10vh;
-}
-
-.Project-img {
-  opacity: 1;
-  display: block;
-  backface-visibility: hidden;
-  height: calc(35vh + 2vmin);
-  width: calc(30vw + 2vmin);
-}
-
-.Project-overlay {
-  position: absolute;
-  color: var(--text);
-  opacity: 0;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-@media screen and (max-width: 600px) {
-  .Project-img {
-    height: calc(15vh + 2vmin);
-    width: calc(25vw + 2vmin);
-  }
-} */
