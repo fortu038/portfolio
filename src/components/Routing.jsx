@@ -10,9 +10,9 @@ function Routing(props) {
   return (
     <Routes>
       <Route path="/portfolio" element={<AboutMe />} />
-      <Route path="/projects" element={<Projects projectArray={props.projectArray} />} />
-      <Route path="/contactme" element={<ContactMe />} />
-      <Route path="/resume" element={<Resume />} />
+      <Route path="/portfolio-projects" element={<Projects projectArray={props.projectArray} />} />
+      <Route path="/portfolio-contactme" element={<ContactMe />} />
+      <Route path="/portfolio-resume" element={<Resume />} />
       <Route path="*" element={<Navigate to="/portfolio"/>} />
     </Routes>
   );

@@ -7,7 +7,6 @@ import Footer from '../../Footer';
 function AboutMe () {
   return (
     <Container>
-
       <Navigation />
 
       <div className="d-flex flex-column justify-content-center align-items-center">
@@ -25,7 +24,6 @@ function AboutMe () {
       </div>
 
       <Footer />
-      
     </Container>
   )
 };
