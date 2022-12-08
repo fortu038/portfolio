@@ -19,6 +19,16 @@ function ProjectGrid (props) {
         </h6>
       </div>
       <div className="mt-4 justify-content-center">
+        <h6 className="text-light bg-secondary">
+          Summary: {props.data.summary}
+        </h6>
+      </div>
+      <div className="mt-4 justify-content-center">
+        <h6 className="text-light bg-secondary">
+          Tools Used: {props.data.tools}
+        </h6>
+      </div>
+      <div className="mt-4 justify-content-center">
         <h6 className="bg-secondary">
           <a className="bg-secondary text-white" href={props.data.repo}>Project GitHub Repo Link</a>
         </h6>
