@@ -12,7 +12,7 @@ function AboutMe () {
       <div className="d-flex flex-column justify-content-center align-items-center">
         <h2>About Me</h2>
         <img
-          src={require("../../../assets/images/profile-pic.jpg")}
+          src={require("../../../assets/images/trimmed-new-pfp.jpg")}
           className="Profile-Picture"
           alt="Conor Fortuna"
         />
