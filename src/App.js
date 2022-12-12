@@ -10,12 +10,13 @@ function App() {
       image: require("./assets/images/group-project-1-screenshot.jpg"),
       altText: "A screenshot of a website titled Comparing Cities",
       projectTitle: "Comparing Cities",
-      link: "https://ivabon.github.io/01-group-project/",
-      repo: "https://github.com/IvaBon/01-group-project",
+      link: "https://fortu038.github.io/Comparing_Cities/",
+      repo: "https://github.com/fortu038/Comparing_Cities",
       tools: "JQuery, APIs, Bootstrap",
       summary: "A website where you can enter up to three city names and compare stats on them"
     },
-    // Issue with link mean this project cannot be shown
+    // Issue with links mean this project cannot be shown; By the looks of it the group partner in charge of it wiped moat of his
+    // repos, including this one, after class finished. Will have to fix and deploy at a later date.
     // {
     //   image: require("./assets/images/group-project-2-screenshot.jpg"),
     //   altText: "A screenshot of a website titled Budgeteer. Link leads to GitHub repo",
@@ -30,7 +31,7 @@ function App() {
       altText: "A screenshot of a website titled MACHDev",
       projectTitle: "MACHDev",
       link: "https://machdev.herokuapp.com/",
-      repo: "https://github.com/AaronVenema/machdev",
+      repo: "https://github.com/fortu038/machdev",
       tools: "NPM, MongoDB, React, Bootstrap, BCrypt/DotENV, cookies, Node.js",
       summary: 'A website that acts as a generic company website to display skills in React and MongoDB. Use the email "email1@email.com" and the password "password" for employee login features'
     },
