@@ -16,7 +16,7 @@ function AboutMe () {
           className="Profile-Picture"
           alt="Conor Fortuna"
         />
-        <h5>
+        <h5 className="text-center">
           My name is Conor Fortuna. I graduated in May 2022 from the University of Minnesota Twin Cities 
           with a major in chemistry and a minor in computer science. In December 2022 I completed a fullstack
           development course through the University of Minnesota. I have learned multiple programming

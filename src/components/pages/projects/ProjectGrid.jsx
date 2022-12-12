@@ -3,8 +3,8 @@ import React from 'react'
 
 function ProjectGrid (props) {
   return(
-    <div className="justify-content-evenly">
-      <div className="mt-4 justify-content-center align-items-center">
+    <div className="align-items-center">
+      <div className="mt-4 text-center">
       <a href={props.data.link}>
         <img
           src={props.data.image}
@@ -13,23 +13,17 @@ function ProjectGrid (props) {
         />
       </a>
       </div>
-      <div className="mt-4 justify-content-center">
-        <h6 className="text-light bg-secondary">
+      <div className="mt-4 text-center">
+        <h6 className="mt-4 text-light bg-secondary Project-Text-Box">
           Project Title: {props.data.projectTitle}
         </h6>
-      </div>
-      <div className="mt-4 justify-content-center">
-        <h6 className="text-light bg-secondary">
+        <h6 className="mt-4 text-light bg-secondary Project-Text-Box">
           Summary: {props.data.summary}
         </h6>
-      </div>
-      <div className="mt-4 justify-content-center">
-        <h6 className="text-light bg-secondary">
+        <h6 className="mt-4 text-light bg-secondary Project-Text-Box">
           Tools Used: {props.data.tools}
         </h6>
-      </div>
-      <div className="mt-4 justify-content-center">
-        <h6 className="bg-secondary">
+        <h6 className="mt-4 bg-secondary Project-Text-Box">
           <a className="bg-secondary text-white" href={props.data.repo}>Project GitHub Repo Link</a>
         </h6>
       </div>

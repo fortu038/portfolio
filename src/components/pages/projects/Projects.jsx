@@ -9,9 +9,9 @@ function Projects (props) {
       <Container>
         <Navigation />
 
-        <div className="d-flex flex-column justify-content-center align-items-center">
+        <div className="d-flex flex-column align-items-center">
           <h2>Projects</h2>
-          <h4>
+          <h4 className="text-center">
             Click on a project's image to go to either that project's site or to see a video of it in
             in action!
           </h4>
