@@ -13,7 +13,7 @@ function Routing(props) {
       <Route path="/projects" element={<Projects projectArray={props.projectArray} />} />
       <Route path="/contactme" element={<ContactMe />} />
       <Route path="/resume" element={<Resume />} />
-      <Route path="*" element={<Navigate to="/portfolio"/>} />
+      <Route path="*" element={<Navigate to="/"/>} />
     </Routes>
   );
 }
