@@ -2,7 +2,7 @@ import './App.css';
 
 import Routing from "./components/Routing";
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 
 function App() {
   const projectArray = [
