@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.282da9f2.css",
-    "main.js": "/portfolio/static/js/main.35ff82cb.js",
+    "main.css": "/portfolio/static/css/main.427d00a3.css",
+    "main.js": "/portfolio/static/js/main.24e1c96c.js",
     "static/js/787.d47a0f03.chunk.js": "/portfolio/static/js/787.d47a0f03.chunk.js",
+    "static/media/Conor_Fortuna_Updated_Resume.docx": "/portfolio/static/media/Conor_Fortuna_Updated_Resume.96ab5b48d09c5a96eb3e.docx",
     "static/media/weather-dash.jpg": "/portfolio/static/media/weather-dash.4d1b936b4252e6a26800.jpg",
     "static/media/insomnia-screenshot.jpg": "/portfolio/static/media/insomnia-screenshot.3c7d23b28e558e2d28c2.jpg",
     "static/media/trimmed-new-pfp.jpg": "/portfolio/static/media/trimmed-new-pfp.30dd2bca1d142d1ee8cd.jpg",
@@ -10,14 +11,13 @@
     "static/media/group-project-3-screenshot.jpg": "/portfolio/static/media/group-project-3-screenshot.e35fd87ac5c83b5bd5d6.jpg",
     "static/media/group-project-1-screenshot.jpg": "/portfolio/static/media/group-project-1-screenshot.6657e7ee5ce5c33a14ff.jpg",
     "static/media/text-editor-site-screenshot.jpg": "/portfolio/static/media/text-editor-site-screenshot.78ab084507d1d676b346.jpg",
-    "static/media/CS-Resume.docx": "/portfolio/static/media/CS-Resume.1954ccf469f4c9979cbe.docx",
     "index.html": "/portfolio/index.html",
-    "main.282da9f2.css.map": "/portfolio/static/css/main.282da9f2.css.map",
-    "main.35ff82cb.js.map": "/portfolio/static/js/main.35ff82cb.js.map",
+    "main.427d00a3.css.map": "/portfolio/static/css/main.427d00a3.css.map",
+    "main.24e1c96c.js.map": "/portfolio/static/js/main.24e1c96c.js.map",
     "787.d47a0f03.chunk.js.map": "/portfolio/static/js/787.d47a0f03.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.282da9f2.css",
-    "static/js/main.35ff82cb.js"
+    "static/css/main.427d00a3.css",
+    "static/js/main.24e1c96c.js"
   ]
 }
