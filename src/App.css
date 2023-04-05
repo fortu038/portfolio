@@ -1,57 +1,50 @@
 /* Generalist Styling */
 :root {
-  --text: #090446;
-  --mainBackground: #808080;
-  --activeText: #61dafb;
-  --altBackground: #fbfff1;
-  --highlightText: #e0ca3c;
-  --secondaryText: #9cde9f;
-  --important: #322e18;
+  --russianViolet: #330036;
+  --darkPurple: #38182F;
+  --charcoal: #2F394D;
+
+  --paynesGrey: #56666B;
+  --vanilla: #EEE1B3;
+  --rufous: #A33B20;
+  --darkPurple: #1C0221;
+  --rosyBrown: #BA8F95;
+
+  --uranianBlue: #BADEFC;
+  --gamboge: #F0A202;
 }
 
 * {
-  background-color: var(--mainBackground);
-  color: var(--text);
+  color: var(--darkPurple);
 }
 
-.HoverLink {
-  color: var(--text);
+.bgSecondary {
+  background-color: var(--paynesGrey);
+}
+
+.bgStandard, html {
+  background-color: var(--vanilla);
+}
+
+.GeneralHoverLink {
+  color: var(--darkPurple);
   text-decoration: none;
 }
 
-.HoverLink:hover {
-  color: var(--activeText);
+.GeneralHoverLink:hover {
+  color: var(--rufous);
 }
 
-.ChangeOnHover:hover {
-  color: var(--activeText);
+.ProjectHoverLink {
+  color: var(--darkPurple);
 }
 
-button {
-  background: none;
-	color: var(--text);
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+.ProjectHoverLink:hover {
+  color: var(--rufous);
 }
 
-button:hover {
-  color: var(--activeText);
-}
-
-/* Contact section Styling */
-.Contact input {
-  width: 15vw;
-}
-
-.Contact button {
-  margin-top: 5vh;
-}
-
-#message {
-  height: 20vh;
+.NavHoverLink:hover {
+  color: var(--rufous);
 }
 
 /* Footer Styling */
@@ -69,13 +62,11 @@ button:hover {
 
 /* Projects Styling */
 .Project-Img {
-  height: 75vmin;
-  min-height: 300px;
-  width: 90vmin;
-  max-width: 650px;
+  /* height: 75vmin;
+  min-height: 300px; */
+  max-width: 95vmin;
 }
 
 .Project-Text-Box {
-  width: 90vmin;
-  max-width: 650px;
+  max-width: 95vmin;
 }

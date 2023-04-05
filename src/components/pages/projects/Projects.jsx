@@ -1,12 +1,12 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+
 import ProjectGrid from "./ProjectGrid";
 import Navigation from "../../Navigation";
 import Footer from "../../Footer";
 
 function Projects (props) {
   return( 
-      <Container>
+      <div className="bgStandard">
         <Navigation />
 
         <div className="d-flex flex-column align-items-center">
@@ -23,7 +23,7 @@ function Projects (props) {
         </div>
         
         <Footer />
-      </Container>
+      </div>
   )
 }
 

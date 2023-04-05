@@ -4,7 +4,7 @@ import {Container} from 'react-bootstrap';
 
 function Footer () {
   return(
-    <Container>
+    <Container className="mt-5">
       <div className="d-flex justify-content-evenly align-items-center">
         <a href="https://github.com/fortu038"> 
           <img 

@@ -15,17 +15,6 @@ function App() {
       tools: "JQuery, APIs, Bootstrap",
       summary: "A website where you can enter up to three city names and compare stats on them"
     },
-    // Issue with links mean this project cannot be shown; By the looks of it the group partner in charge of it wiped moat of his
-    // repos, including this one, after class finished. Will have to fix and deploy at a later date.
-    // {
-    //   image: require("./assets/images/group-project-2-screenshot.jpg"),
-    //   altText: "A screenshot of a website titled Budgeteer. Link leads to GitHub repo",
-    //   projectTitle: "Budgeteer",
-    //   link: " https://group5-production-4da0.up.railway.app/",
-    //   repo: " https://github.com/Glitch0320/group5",
-    //   tools: "MySQL, Sequelize, Bootstrap",
-    //   summary: "A website that allows you to create and manage your monthly budget"
-    // },
     {
       image: require("./assets/images/group-project-3-screenshot.jpg"),
       altText: "A screenshot of a website titled MACHDev",

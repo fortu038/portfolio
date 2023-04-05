@@ -1,11 +1,11 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+
 import Navigation from '../../Navigation';
 import Footer from '../../Footer';
 
 function ContactMe () {
   return (
-    <Container>
+    <div className="bgStandard">
       <Navigation />
 
       <div className="d-flex flex-column justify-content-center align-items-center">
@@ -17,13 +17,13 @@ function ContactMe () {
           Technical Skills: React, Node.js, MySQL, MongoDB, Microsoft Word, Microsoft Excel,
           Microsoft PowerPoint
         </h5>
-        <a className="HoverLink" href={require("../../../assets/resume/CS-Resume.docx")}>
-          <h5 className="text-center">Click Here to Download My Resume</h5>
+        <a className="GeneralHoverLink" href={require("../../../assets/resume/Conor_Fortuna_Updated_Resume.docx")}>
+          <h5 className="text-center GeneralHoverLink">Click Here to Download My Resume</h5>
         </a>
       </div>
 
       <Footer />
-    </Container>
+    </div>
   )
 };
 

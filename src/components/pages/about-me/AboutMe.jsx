@@ -1,12 +1,12 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+
 import Navigation from '../../Navigation';
 import Footer from '../../Footer';
 
 
 function AboutMe () {
   return (
-    <Container>
+    <div className="bgStandard">
       <Navigation />
 
       <div className="d-flex flex-column justify-content-center align-items-center">
@@ -26,7 +26,7 @@ function AboutMe () {
       </div>
 
       <Footer />
-    </Container>
+    </div>
   )
 };
 

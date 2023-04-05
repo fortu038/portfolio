@@ -14,17 +14,17 @@ function ProjectGrid (props) {
       </a>
       </div>
       <div className="mt-4 text-center">
-        <h6 className="mt-4 text-light bg-secondary Project-Text-Box">
+        <h6 className="mt-4 p-2 bgSecondary Project-Text-Box">
           Project Title: {props.data.projectTitle}
         </h6>
-        <h6 className="mt-4 text-light bg-secondary Project-Text-Box">
+        <h6 className="mt-4 p-2 bgSecondary Project-Text-Box">
           Summary: {props.data.summary}
         </h6>
-        <h6 className="mt-4 text-light bg-secondary Project-Text-Box">
+        <h6 className="mt-4 p-2 bgSecondary Project-Text-Box">
           Tools Used: {props.data.tools}
         </h6>
-        <h6 className="mt-4 bg-secondary Project-Text-Box">
-          <a className="bg-secondary text-white" href={props.data.repo}>Project GitHub Repo Link</a>
+        <h6 className="mt-4 p-2 bgSecondary Project-Text-Box">
+          <a className="ProjectHoverLink" href={props.data.repo}>Project GitHub Repo Link</a>
         </h6>
       </div>
     </div>

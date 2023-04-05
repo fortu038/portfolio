@@ -5,23 +5,42 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 function Navigation (props) {
   return(
-    // <div>
-    //   <h1>{props.text}</h1>
-    // </div>
-    <Navbar collapseOnSelect expand="lg">
-      <Container className="text-center">
-      <Navbar.Brand><h1>My Portfolio</h1></Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+    <div className="bgSecondary">
+      <Navbar sticky="top" collapseOnSelect expand="lg">
+        <Container className="text-center">
+          <Navbar.Brand>
+            <h1>
+              My Portfolio
+            </h1>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
-            <Nav.Link as={Link} to="/portfolio"><h5 className="ChangeOnHover">About Me</h5></Nav.Link>
-            <Nav.Link as={Link} to="/portfolio-projects"><h5 className="ChangeOnHover">Projects</h5></Nav.Link>
-            <Nav.Link as={Link} to="/portfolio-contactme"><h5 className="ChangeOnHover">Contact Me</h5></Nav.Link>
-            <Nav.Link as={Link} to="/portfolio-resume"><h5 className="ChangeOnHover">Resume</h5></Nav.Link>
-            </Nav>
+              <Nav className="flex-grow-1 justify-content-evenly align-items-center">
+                <Nav.Link as={Link} to="/portfolio">
+                  <h3 className="NavHoverLink">
+                    About Me
+                  </h3>
+                </Nav.Link>
+                <Nav.Link as={Link} to="/portfolio-projects">
+                  <h3 className="NavHoverLink">
+                    Projects
+                  </h3>
+                </Nav.Link>
+                <Nav.Link as={Link} to="/portfolio-contactme">
+                  <h3 className="NavHoverLink">
+                    Contact Me
+                  </h3>
+                </Nav.Link>
+                <Nav.Link as={Link} to="/portfolio-resume">
+                  <h3 className="NavHoverLink">
+                    Resume
+                  </h3>
+                </Nav.Link>
+              </Nav>
           </Navbar.Collapse>
-      </Container>
-    </Navbar>
+        </Container>
+      </Navbar>
+    </div>
   )
 }
 
