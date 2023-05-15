@@ -17,7 +17,7 @@ function ContactMe () {
           Technical Skills: React, Node.js, MySQL, MongoDB, Microsoft Word, Microsoft Excel,
           Microsoft PowerPoint
         </h5>
-        <a className="GeneralHoverLink" href={require("../../../assets/resume/Conor_Fortuna_Updated_Resume.docx")}>
+        <a className="GeneralHoverLink" href={require("../../../assets/resume/Conor_Fortuna_Resume.docx")}>
           <h5 className="text-center GeneralHoverLink">Click Here to Download My Resume</h5>
         </a>
       </div>
