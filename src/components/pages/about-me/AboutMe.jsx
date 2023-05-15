@@ -11,11 +11,6 @@ function AboutMe () {
 
       <div className="d-flex flex-column justify-content-center align-items-center">
         <h2>About Me</h2>
-        <img
-          src={require("../../../assets/images/trimmed-new-pfp.jpg")}
-          className="Profile-Picture"
-          alt="Conor Fortuna"
-        />
         <h5 className="text-center">
           My name is Conor Fortuna. I graduated in May 2022 from the University of Minnesota Twin Cities 
           with a major in chemistry and a minor in computer science. In December 2022 I completed a fullstack
