@@ -8,9 +8,9 @@ function ContactMe () {
     <div className="bgStandard">
       <Navigation />
 
-      <div className="d-flex flex-column justify-content-center align-items-center">
+      <div className="d-flex flex-column justify-content-center align-items-center mt-2">
         <h2>Resume</h2>
-        <h5 className="text-center">
+        <h5 className="text-center mt-4">
           Programming Languages: C++, C, Java, JavaScript, HTML, CSS, Python, OCaml, x86-64 Assembly
         </h5>
         <h5 className="text-center">
