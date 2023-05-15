@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.427d00a3.css",
-    "main.js": "/portfolio/static/js/main.055747a7.js",
+    "main.js": "/portfolio/static/js/main.d552f936.js",
     "static/js/787.d47a0f03.chunk.js": "/portfolio/static/js/787.d47a0f03.chunk.js",
-    "static/media/Conor_Fortuna_Updated_Resume.docx": "/portfolio/static/media/Conor_Fortuna_Updated_Resume.96ab5b48d09c5a96eb3e.docx",
+    "static/media/Conor_Fortuna_Resume.docx": "/portfolio/static/media/Conor_Fortuna_Resume.8d9940a1fed7b915fe2f.docx",
     "static/media/weather-dash.jpg": "/portfolio/static/media/weather-dash.4d1b936b4252e6a26800.jpg",
     "static/media/insomnia-screenshot.jpg": "/portfolio/static/media/insomnia-screenshot.3c7d23b28e558e2d28c2.jpg",
     "static/media/team-profile-screenshot.jpg": "/portfolio/static/media/team-profile-screenshot.9ad32cd9f7fff31a2283.jpg",
@@ -12,11 +12,11 @@
     "static/media/text-editor-site-screenshot.jpg": "/portfolio/static/media/text-editor-site-screenshot.78ab084507d1d676b346.jpg",
     "index.html": "/portfolio/index.html",
     "main.427d00a3.css.map": "/portfolio/static/css/main.427d00a3.css.map",
-    "main.055747a7.js.map": "/portfolio/static/js/main.055747a7.js.map",
+    "main.d552f936.js.map": "/portfolio/static/js/main.d552f936.js.map",
     "787.d47a0f03.chunk.js.map": "/portfolio/static/js/787.d47a0f03.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.427d00a3.css",
-    "static/js/main.055747a7.js"
+    "static/js/main.d552f936.js"
   ]
 }
