@@ -11,7 +11,7 @@ function ContactMe () {
       <div className="d-flex flex-column justify-content-center align-items-center mt-2">
         <h2>Resume</h2>
         <h5 className="text-center mt-4">
-          Programming Languages: C++, C, Java, JavaScript, HTML, CSS, Python, OCaml, x86-64 Assembly
+          Languages: Java, JavaScript, HTML, CSS, Python, C++, C, C#, OCaml, x86-64 Assembly
         </h5>
         <h5 className="text-center">
           Technical Skills: React, Node.js, MySQL, MongoDB, Microsoft Word, Microsoft Excel,
