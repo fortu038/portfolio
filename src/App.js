@@ -25,13 +25,13 @@ function App() {
       summary: 'A website that acts as a generic company website to display skills in React and MongoDB. Use the email "email1@email.com" and the password "password" for employee login features'
     },
     {
-      image: require("./assets/images/text-editor-site-screenshot.jpg"),
-      altText: "A screenshot of a text editor called Just Another Text Editor",
-      projectTitle: "J.A.T.E.",
-      link: "https://texteditor-production.up.railway.app/",
-      repo: "https://github.com/fortu038/Text_Editor",
-      tools: "NPM, React, Node.js",
-      summary: "A text editor website that may be opened in either the browser or in its own window"
+      image: require("./assets/images/gopher-state-mechanical-screenshot.jpg"),
+      altText: "A screenshot of a website called Gohper State Mechanical",
+      projectTitle: "HVAC Company Website",
+      link: "https://gopherstatemechanical.herokuapp.com/",
+      repo: "https://github.com/fortu038/heating_and_vent_site",
+      tools: "NPM, React, Node.js, MongoDB, React, Bootstrap, BCrypt/DotENV, cookies",
+      summary: "A website for a company called Gopher State Mechanical. This project is currently a work in progress for a client so the link for the website, the layout of pages, and other features may change in the future."
     },
     {
       image: require("./assets/images/weather-dash.jpg"),
