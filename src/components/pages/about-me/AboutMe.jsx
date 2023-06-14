@@ -15,7 +15,7 @@ function AboutMe () {
           My name is Conor Fortuna. I graduated in May 2022 from the University of Minnesota Twin Cities 
           with a major in chemistry and a minor in computer science. In December 2022 I completed a fullstack
           development course through the University of Minnesota. I have learned multiple programming
-          languages, including JavaScript, Java, C++, and Python, and learned multiple technical skills, such
+          languages, including JavaScript, Java, C++, Python, and C#. I have also learned multiple technical skills, such
           as Bootstrap, React, MySQL, and MongoDB.
         </h5>
       </div>
