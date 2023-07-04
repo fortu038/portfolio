@@ -7,6 +7,24 @@ import { HashRouter as Router } from "react-router-dom";
 function App() {
   const projectArray = [
     {
+      image: require("./assets/images/gopher-state-mechanical-screenshot.jpg"),
+      altText: "A screenshot of a website called Gohper State Mechanical",
+      projectTitle: "HVAC Company Website",
+      link: "https://gopherstatemechanical.herokuapp.com/",
+      repo: "https://github.com/fortu038/heating_and_vent_site",
+      tools: "NPM, React, Node.js, MongoDB, React, Bootstrap, BCrypt/DotENV, cookies",
+      summary: "A website for a company called Gopher State Mechanical. This project is currently a work in progress for a client so the link for the website, the layout of pages, and other features may change in the future."
+    },
+    {
+      image: require("./assets/images/insomnia-screenshot.jpg"),
+      altText: "A screenshot of a post request to the API in Insomnia",
+      projectTitle: "Social Network API",
+      link: "https://drive.google.com/file/d/1F-eJTJ7lgqDsXPvetBvPp-LlctaaKXXc/view",
+      repo: "https://github.com/fortu038/Social_Network_API",
+      tools: "NPM, Node.js, MongoDB",
+      summary: "A program that simulates the backend of a social network"
+    },
+    {
       image: require("./assets/images/group-project-1-screenshot.jpg"),
       altText: "A screenshot of a website titled Comparing Cities",
       projectTitle: "Comparing Cities",
@@ -25,15 +43,6 @@ function App() {
       summary: 'A website that acts as a generic company website to display skills in React and MongoDB. Use the email "email1@email.com" and the password "password" for employee login features'
     },
     {
-      image: require("./assets/images/gopher-state-mechanical-screenshot.jpg"),
-      altText: "A screenshot of a website called Gohper State Mechanical",
-      projectTitle: "HVAC Company Website",
-      link: "https://gopherstatemechanical.herokuapp.com/",
-      repo: "https://github.com/fortu038/heating_and_vent_site",
-      tools: "NPM, React, Node.js, MongoDB, React, Bootstrap, BCrypt/DotENV, cookies",
-      summary: "A website for a company called Gopher State Mechanical. This project is currently a work in progress for a client so the link for the website, the layout of pages, and other features may change in the future."
-    },
-    {
       image: require("./assets/images/weather-dash.jpg"),
       altText: "A screenshot of a website called Weather Dashboard",
       projectTitle: "Weather Dashboard",
@@ -50,15 +59,6 @@ function App() {
       repo: "https://github.com/fortu038/Team_Profile_Generator",
       tools: "NPM, Node.js",
       summary: "A program for creating a team profile"
-    },
-    {
-      image: require("./assets/images/insomnia-screenshot.jpg"),
-      altText: "A screen of a post request to the poject in Insomnia",
-      projectTitle: "Social Network API",
-      link: "https://drive.google.com/file/d/1Yx1f296F3iEj-L96JOHRNNHGpQF5Bm3q/view",
-      repo: "https://github.com/fortu038/Social_Network_API",
-      tools: "NPM, Node.js, MongoDB",
-      summary: "A program that simulates the backend of a social network"
     }
   ]
 
